@@ -34,5 +34,6 @@ public class Question {
 			System.out.println(word + ": " + isUniqueChars(word) + " " + isUniqueChars2(word));
 		}
 	}
-
+	
+	
 }
