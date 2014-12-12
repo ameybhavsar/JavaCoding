@@ -1,12 +1,12 @@
 package Question1_3;
 
-public class QuestionB {	
+public class CheckAnagrambyCount {	
 	public static boolean permutation(String s, String t) {
 		if (s.length() != t.length()) {
 			return false;
 		}
 		
-		int[] letters = new int[128];
+		int[] letters = new int[256];
 		 
 		char[] s_array = s.toCharArray();
 		for (char c : s_array) { // count number of each char in s.

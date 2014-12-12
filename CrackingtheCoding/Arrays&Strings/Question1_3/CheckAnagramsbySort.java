@@ -1,6 +1,6 @@
 package Question1_3;
 
-public class Question {	
+public class CheckAnagramsbySort {	
 	public static String sort(String s) {
 		char[] content = s.toCharArray();
 		java.util.Arrays.sort(content);
@@ -14,7 +14,7 @@ public class Question {
 	public static boolean anagram(String s, String t) {
 		if (s.length() != t.length())
 			return false;
-		int[] letters = new int[128];
+		int[] letters = new int[256];
 		int num_unique_chars = 0;
 		int num_completed_t = 0;
 		char[] s_array = s.toCharArray();
@@ -32,14 +32,14 @@ public class Question {
 			if (letters[c] == 0) {
 				++num_completed_t;
 				if (num_completed_t == num_unique_chars) {
-					// itÕs a match if t has been processed completely
+					// itï¿½s a match if t has been processed completely
 					return true;
 					//return i == t.length() - 1;
 				}
 			}
 		}
 		return false;
-	}	
+	}
 	
 	public static void main(String[] args) {
 		String[][] pairs = {{"apple", "papel"}, {"carrot", "tarroc"}, {"hello", "llloh"}};
