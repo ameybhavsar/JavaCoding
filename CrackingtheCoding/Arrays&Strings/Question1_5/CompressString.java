@@ -1,6 +1,6 @@
 package Question1_5;
 
-public class Question {
+public class CompressString {
 
 	public static int setChar(char[] array, char c, int index, int count) {
 		array[index] = c;

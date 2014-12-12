@@ -1,6 +1,6 @@
 package Question1_8;
 
-public class Question {
+public class StringRotation {
 	public static boolean isSubstring(String big, String small) {
 		if (big.indexOf(small) >= 0) {
 			return true;

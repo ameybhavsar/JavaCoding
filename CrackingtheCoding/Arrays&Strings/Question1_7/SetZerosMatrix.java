@@ -2,7 +2,7 @@ package Question1_7;
 
 import CtCILibrary.AssortedMethods;
 
-public class Question {
+public class SetZerosMatrix {
 	public static void nullifyRow(int[][] matrix, int row) {
 		for (int j = 0; j < matrix[0].length; j++) {
 			matrix[row][j] = 0;

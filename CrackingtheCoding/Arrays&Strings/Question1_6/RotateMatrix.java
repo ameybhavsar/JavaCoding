@@ -2,7 +2,7 @@ package Question1_6;
 
 import CtCILibrary.*;
 
-public class Question {
+public class RotateMatrix {
 
 	public static void rotate(int[][] matrix, int n) {
 		for (int layer = 0; layer < n / 2; ++layer) {
@@ -28,9 +28,9 @@ public class Question {
 	}
 	
 	public static void main(String[] args) {
-		int[][] matrix = AssortedMethods.randomMatrix(10, 10, 0, 9);
+		int[][] matrix = AssortedMethods.randomMatrix(3, 3, 0, 6);
 		AssortedMethods.printMatrix(matrix);
-		rotate(matrix, 10);
+		rotate(matrix, 3);
 		System.out.println();
 		AssortedMethods.printMatrix(matrix);
 	}
