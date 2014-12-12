@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Chapter 1"/>
+	<classpathentry kind="src" path="Arrays&amp;Strings"/>
 	<classpathentry kind="src" path="Chapter 10"/>
 	<classpathentry kind="src" path="Chapter 11"/>
 	<classpathentry kind="src" path="Chapter 14"/>
 	<classpathentry kind="src" path="Chapter 16"/>
-	<classpathentry kind="src" path="Chapter 17"/>
-	<classpathentry kind="src" path="Chapter 18"/>
+	<classpathentry kind="src" path="Moderate"/>
+	<classpathentry kind="src" path="Hard"/>
 	<classpathentry kind="src" path="Chapter 2"/>
 	<classpathentry kind="src" path="Chapter 3"/>
-	<classpathentry kind="src" path="Chapter 4"/>
+	<classpathentry kind="src" path="TreesandGraphs"/>
 	<classpathentry kind="src" path="Chapter 5"/>
 	<classpathentry kind="src" path="Chapter 7"/>
 	<classpathentry kind="src" path="Chapter 8"/>

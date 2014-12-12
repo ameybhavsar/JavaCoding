@@ -1,9 +1,9 @@
 package Question1_1;
 
-public class Question {
+public class UniqueCharacter {
 
 	public static boolean isUniqueChars(String str) {
-		if (str.length() > 128) {
+		if (str.length() > 256) {
 			return false;
 		}
 		int checker = 0;
@@ -16,10 +16,10 @@ public class Question {
 	}
 	
 	public static boolean isUniqueChars2(String str) {
-		if (str.length() > 128) {
+		if (str.length() > 256) {
 			return false;
 		}
-		boolean[] char_set = new boolean[128];
+		boolean[] char_set = new boolean[256];
 		for (int i = 0; i < str.length(); i++) {
 			int val = str.charAt(i);
 			if (char_set[val]) return false;
