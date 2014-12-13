@@ -8,8 +8,8 @@
 	<classpathentry kind="src" path="Moderate"/>
 	<classpathentry kind="src" path="Hard"/>
 	<classpathentry kind="src" path="Chapter 2"/>
-	<classpathentry kind="src" path="Chapter 3"/>
-	<classpathentry kind="src" path="TreesandGraphs"/>
+	<classpathentry kind="src" path="Stacks&amp;Queues"/>
+	<classpathentry kind="src" path="Trees&amp;Graphs"/>
 	<classpathentry kind="src" path="Chapter 5"/>
 	<classpathentry kind="src" path="Chapter 7"/>
 	<classpathentry kind="src" path="Chapter 8"/>
