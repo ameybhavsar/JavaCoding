@@ -1,7 +1,7 @@
 package Question4_1;
 import CtCILibrary.TreeNode;
 
-public class QuestionImproved {
+public class CheckTreeBalancedOptimal {
 		
 	public static int checkHeight(TreeNode root) {
 		if (root == null) {

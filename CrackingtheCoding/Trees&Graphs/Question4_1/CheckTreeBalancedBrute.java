@@ -3,7 +3,7 @@ package Question4_1;
 import CtCILibrary.AssortedMethods;
 import CtCILibrary.TreeNode;
 
-public class QuestionBrute {
+public class CheckTreeBalancedBrute {
 	
 	public static int getHeight(TreeNode root) {
 		if (root == null) {
