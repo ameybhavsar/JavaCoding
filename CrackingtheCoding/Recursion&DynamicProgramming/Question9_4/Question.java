@@ -23,7 +23,7 @@ public class Question {
 		}
 		return allsubsets;
 	}
-	
+
 	public static ArrayList<Integer> convertIntToSet(int x, ArrayList<Integer> set) {
 		ArrayList<Integer> subset = new ArrayList<Integer>(); 
 		int index = 0;
@@ -35,7 +35,7 @@ public class Question {
 		}
 		return subset;
 	}
-	
+
 	public static ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set) {
 		ArrayList<ArrayList<Integer>> allsubsets = new ArrayList<ArrayList<Integer>>();
 		int max = 1 << set.size(); /* Compute 2^n */ 
@@ -45,15 +45,15 @@ public class Question {
 		}
 		return allsubsets;
 	}
-	
+
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for (int i = 0; i < 3; i++) {
 			list.add(i);
 		}
-		ArrayList<ArrayList<Integer>> subsets = getSubsets(list, 0);
-		System.out.println(subsets.toString());
-		
+		//ArrayList<ArrayList<Integer>> subsets = getSubsets(list, 0);
+		//System.out.println(subsets.toString());
+
 		ArrayList<ArrayList<Integer>> subsets2 = getSubsets2(list);
 		System.out.println(subsets2.toString());		
 	}
